@@ -60,7 +60,7 @@ export default function OrderSuccessPage() {
                     <CheckCircle2 className="w-14 h-14" />
                 </div>
 
-                <h1 className="text-5xl font-serif font-bold italic mb-4">You're Invited</h1>
+                <h1 className="text-5xl font-serif font-bold italic mb-4">You&apos;re Invited</h1>
                 <p className="text-neutral-400 mb-12 text-lg font-serif italic">
                     Your table is secured and your curated selection is being prepared.
                 </p>

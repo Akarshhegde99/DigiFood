@@ -372,7 +372,7 @@ export default function AdminDashboard() {
                                             <div className="flex justify-between items-start mb-2">
                                                 <h3 className="text-xl font-bold font-serif">{item.name}</h3>
                                             </div>
-                                            <p className="text-neutral-500 text-xs leading-relaxed italic mb-6 overflow-hidden line-clamp-4">"{item.description}"</p>
+                                            <p className="text-neutral-500 text-xs leading-relaxed italic mb-6 overflow-hidden line-clamp-4">&quot;{item.description}&quot;</p>
                                             <div className="flex items-center gap-2 mt-auto">
                                                 <span className={`w-2 h-2 rounded-full ${item.is_available ? 'bg-green-500' : 'bg-red-500'}`} />
                                                 <span className="text-[10px] font-bold uppercase tracking-widest text-neutral-400">

@@ -330,7 +330,7 @@ export default function MenuPage() {
                                         <h3 className="text-xl font-serif font-bold group-hover:text-amber-600 transition-colors cursor-pointer" onClick={() => requireAuth(() => setSelectedItem(item))}>{item.name}</h3>
                                     </div>
                                     <p className="text-neutral-400 text-sm line-clamp-2 mb-6 leading-relaxed italic">
-                                        "{item.description}"
+                                        &quot;{item.description}&quot;
                                     </p>
                                     <button
                                         onClick={() => addToCart(item)}
@@ -354,7 +354,7 @@ export default function MenuPage() {
                         <div className="max-w-md mx-auto px-4">
                             <h3 className="text-2xl font-serif font-bold mb-4">A Quiet Kitchen</h3>
                             <p className="text-neutral-400 mb-10 leading-relaxed italic">
-                                We couldn't find any dishes matching your criteria. Perhaps you'd like to help us prepare?
+                                We couldn&apos;t find any dishes matching your criteria. Perhaps you&apos;d like to help us prepare?
                             </p>
 
                             {items.length === 0 && (
